@@ -1,0 +1,153 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+nav button{
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 133px;
+    height: 51px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    background-image: url(asset/building.svg);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h3, h1{
+    margin-bottom: 10px;
+}
+
+#home h3{
+    font-size: 30px;
+}
+
+#home h1{
+    font-size: 65px;
+}
+
+#sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 986px;
+    gap: 30px 62px;
+    margin-top: 150px;
+}
+
+#about {
+    height: 600px;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+#about2{
+    display: flex;
+
+}
+
+#logo{
+    width: 50%;
+}
+
+#logo h1 {
+    font-size: 65px;
+    text-shadow: 0 4px 4px #00000025;
+}
+
+#intro {
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#intro button{
+    border-radius: 24px;
+    width: 260px;
+    height: 78px;
+    border-color: transparent;
+    color: white;
+    background-color: red;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#students{
+    background-color: #570000;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#students h1{
+    font-size: 65px;
+}
+
+#student-list{
+    display: flex;
+    overflow-x: scroll;
+    margin: 25px 50px;
+    gap: 60px;
+}
+
+.student{
+    background-color: white;
+    color: black;
+    width: 285px;
+    height: 380px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.student img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#footer{
+    display: flex;
+    padding: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #820000;
+    color: white;
+    justify-content: space-between;
+}
+
+#sosmed img{
+    margin-right: 20px;
+}
